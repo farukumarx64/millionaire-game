@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Gameplay';
+  src: url('../assets/fonts/Gameplay.ttf');
+}
+
+html {
+  background-color: #020346;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+.header, .description{
+    color: white;
+}
+.header {
+  margin-top: 15rem;
+  font-family: 'Gameplay';
+  font-size: 40px;
+}
+.play {
+  text-decoration: none;
+  color: white;
+  font-family: 'Gameplay';
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  background-color: black;
+}
+.play:hover {
+  transition: 500ms;
+  color: black;
+  background-color: #ff9503;
+}
