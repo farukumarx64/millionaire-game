@@ -66,7 +66,9 @@ html{
   box-sizing: border-box;
   width: 30%;
 }
-
+.cheats, .progress, .points {
+  margin: 1rem;
+}
 .cheats div img{
   background-color: black;
   border: solid 5px #1363bc;
@@ -98,4 +100,35 @@ html{
   gap: 2rem;
   justify-content: center;
   align-items: center;
+}
+
+.progress {
+  background-color: #00002e;
+  border-bottom: solid 5px #1363bc;
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-point{
+  color: #a2794d;
+  font-size: 30px;
+  margin: 0;
+  padding: 8px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.points {
+  background-color: #00002e;
+  color: white;
+  font-size: 30px;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.progress-point:hover{
+  background-color: #f76029;
+  color: black;
+  transition: 100ms;
 }
