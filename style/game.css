@@ -126,9 +126,3 @@ html{
   padding: 8px 0;
   text-align: center;
 }
-
-.progress-point:hover{
-  background-color: #f76029;
-  color: black;
-  transition: 100ms;
-}
