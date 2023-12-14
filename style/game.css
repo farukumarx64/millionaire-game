@@ -56,10 +56,10 @@ html{
   
 }
 .answer button:hover{
-  background-color:#ff9503;
-  color: black;
+  background-color:#ff9503 !important;
+  color: black !important;
   transition: 500ms;
-  border-color: white;
+  border-color: white !important;
 }
 
 .right-screen {
